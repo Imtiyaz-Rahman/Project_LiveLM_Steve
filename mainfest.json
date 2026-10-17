@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "LiveLM",
+  "version": "1.0",
+
+  "description": "Creates a local agentic chat window to interact with your browser",
+  
+  "icons": {
+    "32": "icons/icon.png",
+    "64": "icons/icon2x.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "window.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "LiveLM@bing.org",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+
+  "content_scripts": [
+    {
+      "js": ["api-script.js"]
+    }
+  ]
+}
