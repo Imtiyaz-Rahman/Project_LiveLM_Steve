@@ -10,7 +10,7 @@
     "64": "icons/icon2x.png"
   },
 
-  "browser_action": {
+  "action": {
     "default_icon": "icons/icon.png",
     "default_popup": "window.html"
   },
