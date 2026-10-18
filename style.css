@@ -1,0 +1,21 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  padding: 1rem;
+  width: 30rem;
+
+  background: #080705;
+  color: #BFD7B5;
+
+  /*overflow: hidden; */
+}
+
+button {
+  align-content: Center;
+  border: none;
+  background: #A3C4BC
+  padding: 2rem
+}
